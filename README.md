@@ -6,8 +6,7 @@
 
 A proposta deste projeto é mostrar posts contidos de história e ficção contidos no DummyJson.
 
-Ao clicar em um post, irá navegar para uma nova tela onde mostra os dados do post após fazer uma requisição no seguinte endereço:
-`https://dummyjson.com/post/{id}`
+Ao clicar em um post, irá navegar para uma nova tela onde mostra os dados do post.
 
 Este projeto é feito com [Expo](https://expo.dev/)
 
