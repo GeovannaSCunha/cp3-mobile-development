@@ -1,28 +1,28 @@
+# Integrantes
+- Geovanna Silva Cunha - rm97736
+- Victor Camargo Maciel - rm98384
+
 # Usando API do DummyJson
 
 A proposta deste projeto é mostrar posts contidos de história e ficção contidos no DummyJson.
-A navegação deve utilizar Drawer(Gaveta) ou Abas.
 
-Os posts de história são obtidos atráves de um `GET` no endpoint:
-`https://dummyjson.com/posts/tag/history`
-
-Os posts de ficção são obtidos atráves de um `GET` no endpoint:
-`https://dummyjson.com/posts/tag/fiction`
-
-Em ambas as abas são exibidos numa lista os seguintes dados:
-- `title`
-- `reactions.likes`
-- `reactions.dislikes`
-- `views`
-
+Ao clicar em um post, irá navegar para uma nova tela onde mostra os dados do post após fazer uma requisição no seguinte endereço:
+`https://dummyjson.com/post/{id}`
 
 Este projeto é feito com [Expo](https://expo.dev/)
+
 Os ícones são cortesia do [`FontAwesome`](https://fontawesome.com/icons)
 
 # Configurando o projeto
 Após clonar o repositório, rode o comando para instalar os pacotes:
 
 `npm install`
+
+`npx expo install @react-navigation/native @react-navigation/bottom-tabs`
+
+`npm install @react-navigation/native-stack`
+
+`npx expo install axios`
 
 # Rodando o projeto
 Para rodar o projeto num dispositivo Android:
